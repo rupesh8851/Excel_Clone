@@ -1009,6 +1009,7 @@ $("#cut").click(function(e){
     clipboard.startCell=getRowCol($(".input-cell.selected")[0]);
    
    
+
     $(".input-cell.selected").each(function(idx,data){
     console.log("hello");
      let [rowId,colId]=getRowCol(data);
