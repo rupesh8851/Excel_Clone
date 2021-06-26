@@ -1014,6 +1014,10 @@ $("#cut").click(function(e){
     console.log("hello");
      let [rowId,colId]=getRowCol(data);
    
+
+
+
+     
      if(cellData[selectedsheet][rowId - 1]!=undefined && cellData[selectedsheet][rowId - 1][colId - 1]!=undefined)
       {
            if(!clipboard.cellData[rowId])
